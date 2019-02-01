@@ -176,19 +176,18 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 11,
-          official_name: 'Houston Rockets',
-          name: 'Rockets',
-          city: 'Houston',
-          state: 'Texas',
+          official_name: 'Detroit Red Wings',
+          name: 'Red Wings',
+          city: 'Detroit',
+          state: 'Michigan',
           team_colors: {
-            "primary": "#CE1141",
-            "secondary": "#C4CED3",
-            "alternate": "#061922"
+            "primary": "#CE1126",
+            "secondary": "#FFFFFF"
           },
-          stadium_name: 'Toyota Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/230/thumbs/8xe4813lzybfhfl14axgzzqeq.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Little Caesars Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/11/full/yo3wysbjtagzmwj37tb11u0fh.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 12,
