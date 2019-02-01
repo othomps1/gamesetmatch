@@ -75,7 +75,7 @@ exports.seed = function(knex, Promise) {
           official_name: 'Calgary Flames',
           name: 'Flames',
           city: 'Calgary',
-          state: 'Alberta',
+          state: 'Alberta, Canada',
           team_colors: {
             "primary": "#C8102E",
             "secondary": "#F1BE48",
@@ -191,306 +191,330 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 12,
-          official_name: 'Indiana Pacers',
-          name: 'Pacers',
-          city: 'Indianapolis',
-          state: 'Indiana',
+          official_name: 'Edmonton Oilers',
+          name: 'Oilers',
+          city: 'Edmonton',
+          state: 'Alberta, Canada',
           team_colors: {
-            "primary": "#FFC633",
-            "secondary": "#00275D",
-            "alternate": "#BEC0C2"
+            "primary": "#041E42",
+            "secondary": "#FF4C00"
           },
-          stadium_name: 'Bankers Life Fieldhouse',
-          logo_url: 'http://content.sportslogos.net/logos/6/224/thumbs/3083.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Rogers Place',
+          logo_url: 'http://content.sportslogos.net/logos/1/12/full/2728_edmonton_oilers-primary-2018.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 13,
-          official_name: 'LA Clippers',
-          name: 'Clippers',
-          city: 'Los Angeles',
-          state: 'California',
+          official_name: 'Florida Panthers',
+          name: 'Panthers',
+          city: 'Sunrise',
+          state: 'Florida',
           team_colors: {
-            "primary": "#ED174C",
-            "secondary": "#006BB6",
-            "alternate": "#061922"
+            "primary": "#041E42",
+            "secondary": "#C8102E",
+            "alternate": "#B9975B"
           },
-          stadium_name: 'Staples Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/236/thumbs/23654622016.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'BB&T Center',
+          logo_url: 'http://content.sportslogos.net/logos/1/13/full/8078_florida_panthers-primary-2017.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 14,
-          official_name: 'Los Angeles Lakers',
-          name: 'Lakers',
+          official_name: 'Los Angeles Kings',
+          name: 'Kings',
           city: 'Los Angeles',
           state: 'California',
           team_colors: {
-            "primary": "#FDB927",
-            "secondary": "#552582",
-            "alternate": "#619222"
+            "primary": "#111111",
+            "secondary": "#A2AAAD",
+            "alternate": "#FFFFFF"
           },
           stadium_name: 'Staples Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/237/thumbs/uig7aiht8jnpl1szbi57zzlsh.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          logo_url: 'http://content.sportslogos.net/logos/1/14/full/71jepx81eqzz1l6q9g1g5j1lh.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 15,
-          official_name: 'Memphis Grizzlies',
-          name: 'Grizzlies',
-          city: 'Memphis',
-          state: 'Tennessee',
+          official_name: 'Minnesota Wild',
+          name: 'Wild',
+          city: 'Saint Paul',
+          state: 'Minnesota',
           team_colors: {
-            "primary": "#0F586C",
-            "secondary": "#7399C6",
-            "alternate": "#BED4E9"
+            "primary": "#A6192E",
+            "secondary": "#154734",
+            "alternate": "#EAAA00",
+            "fourth": "#DDCBA4"
           },
-          stadium_name: 'FedExForum',
-          logo_url: 'http://content.sportslogos.net/logos/6/231/thumbs/793.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Xcel Energy Center',
+          logo_url: 'http://content.sportslogos.net/logos/1/15/full/8810_minnesota_wild-primary-2014.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 16,
-          official_name: 'Miami Heat',
-          name: 'Heat',
-          city: 'Miami',
-          state: 'Florida',
+          official_name: 'Montreal Canadiens',
+          name: 'Canadiens',
+          city: 'Montreal',
+          state: 'Quebec, Canada',
           team_colors: {
-            "primary": "#98002E",
-            "secondary": "#F9A01B",
-            "alternate": "#061922"
+            "primary": "#AF1E2D",
+            "secondary": "#192168"
           },
-          stadium_name: 'American Airlines Arena',
-          logo_url: 'http://content.sportslogos.net/logos/6/214/thumbs/burm5gh2wvjti3xhei5h16k8e.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Bell Centre',
+          logo_url: 'http://content.sportslogos.net/logos/1/16/full/124.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 17,
-          official_name: 'Milwaukee Bucks',
-          name: 'Bucks',
-          city: 'Milwaukee',
-          state: 'Wisconsin',
+          official_name: 'Nashville Predators',
+          name: 'Predators',
+          city: 'Nashville',
+          state: 'Tennessee',
           team_colors: {
-            "primary": "#00471B",
-            "secondary": "#F0EBD2",
-            "alternate": "#061922"
+            "primary": "#FFB81C",
+            "secondary": "#041E42",
+            "alternate": "#FFFFFF"
           },
-          stadium_name: 'Bradley Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/225/thumbs/22582752016.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Bridgestone Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/17/full/lvchw3qfsun2e7oc02kh2zxb6.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 18,
-          official_name: 'Minnesota Timberwolves',
-          name: 'Timberwolves',
-          city: 'Minneapolis',
-          state: 'Minnesota',
+          official_name: 'New Jersey Devils',
+          name: 'Devils',
+          city: 'Newark',
+          state: 'New Jersey',
           team_colors: {
-            "primary": "#005083",
-            "secondary": "#00A94F",
-            "alternate": "#C4CED3"
+            "primary": "#CE1126",
+            "secondary": "#000000",
+            "alternate": "#FFFFFF"
           },
-          stadium_name: 'Target Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/232/thumbs/23296692018.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Prudential Center',
+          logo_url: 'http://content.sportslogos.net/logos/1/18/full/32tfs723a3bes0p0hb4hgcy1u.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 19,
-          official_name: 'New Orleans Pelicans',
-          name: 'Pelicans',
-          city: 'New Orleans',
-          state: 'Louisiana',
+          official_name: 'New York Islanders',
+          name: 'Islanders',
+          city: 'Brooklyn',
+          state: 'New York',
           team_colors: {
-            "primary": "#002B5C",
-            "secondary": "#E31837",
-            "alternate": "#B4975A"
+            "primary": "#00539B",
+            "secondary": "#F47D30"
           },
-          stadium_name: 'Smoothie King Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/4962/thumbs/496226812014.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Barclays Center',
+          logo_url: 'http://content.sportslogos.net/logos/1/19/full/79520qbne58r9i71zhuggbff0.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 20,
-          official_name: 'New York Knicks',
-          name: 'Knicks',
+          official_name: 'New York Rangers',
+          name: 'Rangers',
           city: 'New York City',
           state: 'New York',
           team_colors: {
-            "primary": "#006BB6",
-            "secondary": "#F58426",
-            "alternate": "#BEC0C2"
+            "primary": "#0038A8",
+            "secondary": "#CE1126",
+            "alternate": "#FFFFFF"
           },
           stadium_name: 'Madison Square Garden',
-          logo_url: 'http://content.sportslogos.net/logos/6/216/thumbs/2nn48xofg0hms8k326cqdmuis.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          logo_url: 'http://content.sportslogos.net/logos/1/20/full/144.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 21,
-          official_name: 'Oklahoma City Thunder',
-          name: 'Thunder',
-          city: 'Oklahoma City',
-          state: 'Oklahoma',
+          official_name: 'Ottawa Senators',
+          name: 'Senators',
+          city: 'Ottawa',
+          state: 'Ontario, Canada',
           team_colors: {
-            "primary": "#007DC3",
-            "secondary": "#F05133",
-            "alternate": "#FDBB30"
+            "primary": "#E31837",
+            "secondary": "#C69214",
+            "alternate": "#000000",
+            "fourth": "#FFFFFF"
           },
-          stadium_name: 'Chesapeake Energy Arena',
-          logo_url: 'http://content.sportslogos.net/logos/6/2687/thumbs/khmovcnezy06c3nm05ccn0oj2.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Canadian Tire Centre',
+          logo_url: 'http://content.sportslogos.net/logos/1/21/full/2bkf2l3xyxi5p0cavbj8.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 22,
-          official_name: 'Orlando Magic',
-          name: 'Magic',
-          city: 'Orlando',
-          state: 'Florida',
-          team_colors: {
-            "primary": "#007DC5",
-            "secondary": "#C4CED3",
-            "alternate": "#061922"
-          },
-          stadium_name: 'Amway Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/217/thumbs/wd9ic7qafgfb0yxs7tem7n5g4.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
-        },
-        {
-          id: 23,
-          official_name: 'Philadelphia 76ers',
-          name: '76ers',
+          official_name: 'Philadelphia Flyers',
+          name: 'Flyers',
           city: 'Philadelphia',
           state: 'Pennsylvania',
           team_colors: {
-            "primary": "#ED174C",
-            "secondary": "#006BB6",
-            "alternate": "#002B5C"
+            "primary": "#F74902",
+            "secondary": "#000000",
+            "alternate": "#FFFFFF"
           },
           stadium_name: 'Wells Fargo Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/218/thumbs/21870342016.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          logo_url: 'http://content.sportslogos.net/logos/1/22/full/161.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
+        },
+        {
+          id: 23,
+          official_name: 'Pittsburgh Penguins',
+          name: 'Penguins',
+          city: 'Pittsburgh',
+          state: 'Pennsylvania',
+          team_colors: {
+            "primary": "#000000",
+            "secondary": "#CFC493",
+            "alternate": "#FCB514",
+            "fourth": "#FFFFFF"
+          },
+          stadium_name: 'PPG Paints Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/24/full/6362_pittsburgh_penguins-primary-2017.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 24,
-          official_name: 'Phoenix Suns',
-          name: 'Suns',
-          city: 'Phoenix',
-          state: 'Arizona',
+          official_name: 'San Jose Sharks',
+          name: 'Sharks',
+          city: 'San Jose',
+          state: 'California',
           team_colors: {
-            "primary": "#E56020",
-            "secondary": "#1D1160",
-            "alternate": "#63717A"
+            "primary": "#006D75",
+            "secondary": "#EA7200",
+            "alternate": "#000000",
+            "fourth": "#FFFFFF"
           },
-          stadium_name: 'Talking Stick Resort Arena',
-          logo_url: 'http://content.sportslogos.net/logos/6/238/thumbs/23843702014.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'SAP Center at San Jose',
+          logo_url: 'http://content.sportslogos.net/logos/1/26/full/dmo1xf3z4pph27vmg3gf.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 25,
-          official_name: 'Portland Trail Blazers',
-          name: 'Trail Blazers',
-          city: 'Portland',
-          state: 'Oregon',
+          official_name: 'St. Louis Blues',
+          name: 'Blues',
+          city: 'St. Louis',
+          state: 'Missouri',
           team_colors: {
-            "primary": "#E03A3E",
-            "secondary": "#BAC3C9",
-            "alternate": "#061922"
+            "primary": "#002F87",
+            "secondary": "#FCB514",
+            "alternate": "#041E42",
+            "fourth": "#FFFFFF"
           },
-          stadium_name: 'Moda Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/239/thumbs/23997252018.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Enterprise Center',
+          logo_url: 'http://content.sportslogos.net/logos/1/25/full/187.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 26,
-          official_name: 'Sacramento Kings',
-          name: 'Kings',
-          city: 'Sacramento',
-          state: 'California',
+          official_name: 'Tampa Bay Lightning',
+          name: 'Lightning',
+          city: 'Tampa Bay',
+          state: 'Florida',
           team_colors: {
-            "primary": "#724C9F",
-            "secondary": "#8E9090",
-            "alternate": "#061922"
+            "primary": "#002868"
           },
-          stadium_name: 'Golden 1 Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/240/thumbs/24040432017.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Amalie Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/27/full/97hhvk8e5if0riesnex30etgz.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 27,
-          official_name: 'San Antonio Spurs',
-          name: 'Spurs',
-          city: 'San Antonio',
-          state: 'Texas',
-          team_colors: {
-            "primary": "#BAC3C9",
-            "secondary": "#061922"
-          },
-          stadium_name: 'AT&T Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/233/thumbs/827.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
-        },
-        {
-          id: 28,
-          official_name: 'Toronto Raptors',
-          name: 'Raptors',
+          official_name: 'Toronto Maple Leafs',
+          name: 'Maple Leafs',
           city: 'Toronto',
           state: 'Ontario, Canada',
           team_colors: {
-            "primary": "#CE1141",
-            "secondary": "#061922",
-            "alternate": "#A1A1A4"
+            "primary": "#003E7E",
+            "secondary": "#FFFFFF"
           },
-          stadium_name: 'Air Canada Centre',
-          logo_url: 'http://content.sportslogos.net/logos/6/227/thumbs/22745782016.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Scotiabank Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/28/full/8761_toronto_maple_leafs-primary-2017.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
+        },
+        {
+          id: 28,
+          official_name: 'Vancouver Canucks',
+          name: 'Canucks',
+          city: 'Vancouver',
+          state: 'British Columbia, Canada',
+          team_colors: {
+            "primary": "#001F5B",
+            "secondary": "#00843D",
+            "alternate": "#071C2C",
+            "fourth": "#99999A",
+            "fifth": "#FFFFFF"
+          },
+          stadium_name: 'Rogers Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/29/full/tlxz9higxwygaehl0j5h.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 29,
-          official_name: 'Utah Jazz',
-          name: 'Jazz',
-          city: 'Salt Lake City',
-          state: 'Utah',
+          official_name: 'Vegas Golden Knights',
+          name: 'Golden Knights',
+          city: 'Las Vegas',
+          state: 'Nevada',
           team_colors: {
-            "primary": "#002B5C",
-            "secondary": "#F9A01B",
-            "alternate": "#00471B"
+            "primary": "#B4975A",
+            "secondary": "#333F42",
+            "alternate": "#C8102E",
+            "fourth": "#000000",
+            "fifth": "#FFFFFF"
           },
-          stadium_name: 'Vivint Smart Home Arena',
-          logo_url: 'http://content.sportslogos.net/logos/6/234/thumbs/23467492017.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'T-Mobile Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/6114/full/2684_vegas_golden_knights-primary-2018.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         },
         {
           id: 30,
-          official_name: 'Washington Wizards',
-          name: 'Wizards',
+          official_name: 'Washington Capitals',
+          name: 'Capitals',
           city: 'Washington',
           state: 'D.C.',
           team_colors: {
-            "primary": "#002B5C",
-            "secondary": "#E31837",
-            "alternate": "#C4CED4"
+            "primary": "#041E42",
+            "secondary": "#C8102E",
+            "alternate": "#FFFFFF"
           },
-          stadium_name: 'Verizon Center',
-          logo_url: 'http://content.sportslogos.net/logos/6/219/thumbs/21956712016.gif',
-          created_at: new Date('2017-03-22 14:55:16 UTC'),
-          updated_at: new Date('2017-03-22 14:55:18 UTC')
+          stadium_name: 'Capital One Arena',
+          logo_url: 'http://content.sportslogos.net/logos/1/30/full/llrs2zxi127vkqgcsvfb.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
+        },
+        {
+          id: 31,
+          official_name: 'Winnipeg Jets',
+          name: 'Jets',
+          city: 'Winnipeg',
+          state: 'Manitoba, Canada',
+          team_colors: {
+            "primary": "#041E42",
+            "secondary": "#004C97",
+            "alternate": "#AC162C",
+            "fourth": "#7B303E",
+            "fifth": "#55565A",
+            "sixth": "#8E9090",
+            "seventh": "#FFFFFF"
+          },
+          stadium_name: 'Bell MTS Place',
+          logo_url: 'http://content.sportslogos.net/logos/1/3050/full/z9qyy9xqoxfjn0njxgzoy2rwk.png',
+          created_at: new Date('2019-02-01 10:55:22 UTC'),
+          updated_at: new Date('2019-02-01 10:55:24 UTC')
         }
       ]);
     }).then(() => {
