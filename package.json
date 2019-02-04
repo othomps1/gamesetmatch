@@ -1,6 +1,9 @@
 {
   "name": "gamesetmatch",
   "version": "1.0.0",
+  "engines": {
+    "node": "^11.4.0"
+  }
   "description": "Never watch the game alone again",
   "main": "server.js",
   "scripts": {
