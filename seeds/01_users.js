@@ -7,12 +7,13 @@ exports.seed = function(knex, Promise) {
       return knex('users').insert([
         {
           id: 1,
-          name: 'Devin Hurd',
+          username: 'Devin Hurd',
+          location: 'Boulder, CO',
           email: 'devin@devinhurd.com',
           hashed_password: '$2a$06$R08R8hCrwbQlv5m2YnB6a.MyTOMxVMu17rTCKd4LVPfnEZWf6ELP.',
           is_admin: true,
           user_avatar_url: 'https://s-media-cache-ak0.pinimg.com/originals/b1/a9/25/b1a9258f681b6d0c86182e5bac02200d.jpg',
-          smack_talk: 'You can\'t have Astros without "ass."',
+          tagline: 'You can\'t have Astros without "ass."',
           friends_list: {
             "friends": "[ 2 ]"
           },

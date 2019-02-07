@@ -6,7 +6,7 @@ const knex = require('../knex');
 const router = express.Router();
 const cookieSession = require('cookie-session');
 
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 const saltRounds = 12;
 const nanoid = require('nanoid');
 const admin = require('firebase-admin');
@@ -138,7 +138,6 @@ router.get('/:id', (req, res, next) => {
       if (!user) {
         return next();
       }
-
       res.send(user);
     })
     .catch((err) => {
@@ -152,12 +151,13 @@ router.post('/', (req, res, next) => {
 
   knex('users')
   .insert({
-    name: req.body.name,
+    username: req.body.username,
+    location: req.body.location,
     email: req.body.email,
     hashed_password: hash,
     is_admin: req.body.is_admin,
     user_avatar_url: req.body.user_avatar_url,
-    smack_talk: req.body.smack_talk,
+    tagline: req.body.tagline,
     friends_list: req.body.friends_list,
     favorite_teams: req.body.favorite_teams,
     last_visit: req.body.last_visit,
@@ -195,12 +195,13 @@ router.patch('/:id', (req, res, next) => {
       knex('users')
       .where('id', req.params.id)
       .update({
-        name: req.body.name,
+        username: req.body.username,
+        location: req.body.location,
         email: req.body.email,
         hashed_password: hash,
         is_admin: req.body.is_admin,
         user_avatar_url: req.body.user_avatar_url,
-        smack_talk: req.body.smack_talk,
+        tagline: req.body.tagline,
         friends_list: req.body.friends_list,
         favorite_teams: req.body.favorite_teams,
         last_visit: req.body.last_visit,
@@ -220,11 +221,12 @@ router.patch('/:id', (req, res, next) => {
       knex('users')
       .where('id', req.params.id)
       .update({
-        name: req.body.name,
+        username: req.body.username,
+        location: req.body.location,
         email: req.body.email,
         is_admin: req.body.is_admin,
         user_avatar_url: req.body.user_avatar_url,
-        smack_talk: req.body.smack_talk,
+        tagline: req.body.tagline,
         friends_list: req.body.friends_list,
         favorite_teams: req.body.favorite_teams,
         last_visit: req.body.last_visit,
@@ -270,11 +272,12 @@ router.delete('/:id', (req, res, next) => {
 
           var obj = {
             id: holder,
-            name: record.name,
+            username: record.username,
+            location: record.location,
             email: record.email,
             is_admin: record.is_admin,
             user_avatar_url: record.user_avatar_url,
-            smack_talk: record.smack_talk,
+            tagline: record.tagline,
             friends_list: record.friends_list,
             favorite_teams: record.favorite_teams,
             last_visit: record.last_visit,

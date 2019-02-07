@@ -15,6 +15,7 @@ const nba_teams = require('./routes/nba_teams.js');
 const college_d1s = require('./routes/college_d1s.js');
 const mlb_teams = require('./routes/mlb_teams.js');
 const nhl_teams = require('./routes/nhl_teams.js');
+const messages = require('.routes/messages.js');
 const index = require('./routes/index')
 
 require('dotenv').config();

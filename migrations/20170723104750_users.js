@@ -2,12 +2,13 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('users', function(table) {
     table.increments().primary();
-    table.string('name').notNullable().defaultTo('');
+    table.string('username').notNullable().defaultTo('');
+    table.string('location').notNullable().defaultTo('');
     table.string('email').notNullable().defaultTo('');
     table.string('hashed_password').notNullable().defaultTo('');
     table.boolean('is_admin').notNullable().defaultTo(false);
     table.string('user_avatar_url').defaultTo(null);
-    table.string('smack_talk').defaultTo(null);
+    table.string('tagline').defaultTo(null);
     table.json('friends_list').defaultTo(null);
     table.json('favorite_teams').defaultTo(null);
     table.date('last_visit').notNullable().defaultTo('2017-03-22 14:55:16 UTC');
