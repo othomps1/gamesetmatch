@@ -15,8 +15,8 @@ const nba_teams = require('./routes/nba_teams.js');
 const college_d1s = require('./routes/college_d1s.js');
 const mlb_teams = require('./routes/mlb_teams.js');
 const nhl_teams = require('./routes/nhl_teams.js');
-const messages = require('.routes/messages.js');
-const index = require('./routes/index')
+const messages = require('./routes/messages.js');
+const index = require('./routes/index');
 
 require('dotenv').config();
 
@@ -39,6 +39,7 @@ app.use('/nba_teams', nba_teams);
 app.use('/college_d1s', college_d1s);
 app.use('/mlb_teams', mlb_teams);
 app.use('/nhl_teams', nhl_teams);
+app.use('/messages', messages);
 
 // Uncomment if you need wildcard route
 // but you will need to modify it!
